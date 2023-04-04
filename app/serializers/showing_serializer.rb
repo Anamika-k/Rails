@@ -1,5 +1,5 @@
 class ShowingSerializer < ActiveModel::Serializer
-  attributes :id, :Name, :age
+  attributes :id, :Name, :Last_Name, :age
   def age
     #if object.DOB.present?
     #  Time.zone.now.year - object.DOB.year 
